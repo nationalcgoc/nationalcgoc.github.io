@@ -100,4 +100,6 @@ Repo access is managed through GitHub settings:
 
 ## Credits
 
+Built and Maintained by Hugh Robinson and Enrique Oti (CAO APR 2026)
 Originally built and designed by Dannika Thompson.
+
