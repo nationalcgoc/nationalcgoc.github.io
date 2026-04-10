@@ -1908,15 +1908,8 @@ ul#nav li.dropdown a.top-level, ul#nav li.dropdown-current a.top-level {
 }
 
 .member-grid .member {
-	background: var(--color-bg-subtle);
-	border-radius: var(--radius-sm);
-	padding: 20px 16px;
 	text-align: center;
-	transition: background 0.3s ease-in-out;
-}
-
-.member-grid .member:hover {
-	background: var(--color-bg-light);
+	padding: 10px 0;
 }
 
 .member-grid .member-pic {
@@ -1925,8 +1918,6 @@ ul#nav li.dropdown a.top-level, ul#nav li.dropdown-current a.top-level {
 	overflow: hidden;
 	background: var(--color-white);
 	border-radius: 50%;
-	width: 140px;
-	height: 140px;
 	margin: 0 auto 16px;
 }
 
@@ -1989,8 +1980,8 @@ ul#nav li.dropdown a.top-level, ul#nav li.dropdown-current a.top-level {
 
 @media only screen and (max-width: 600px) {
 	.member-grid .member-pic {
-		width: 120px;
-		height: 120px;
+		width: 50%;
+		margin: auto;
 	}
 }
 
@@ -2237,14 +2228,7 @@ ul#nav li.dropdown a.top-level, ul#nav li.dropdown-current a.top-level {
 	color: #fff;
 }
 
-/* Dark map popup styling */
-.leaflet-popup-content-wrapper {
-	background: #1a1d23;
-	color: var(--color-white);
-	border-radius: var(--radius-sm);
-	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-}
-
+/* Map popup styling */
 .leaflet-popup-content {
 	margin: 14px 18px;
 	font: 14px/22px var(--font-light);
@@ -2252,19 +2236,10 @@ ul#nav li.dropdown a.top-level, ul#nav li.dropdown-current a.top-level {
 
 .leaflet-popup-content b {
 	font: 16px/24px var(--font-heading);
-	color: var(--color-gold);
 }
 
 .leaflet-popup-content a {
 	color: var(--color-gold);
-}
-
-.leaflet-popup-content a:hover {
-	color: var(--color-white);
-}
-
-.leaflet-popup-tip {
-	background: #1a1d23;
 }
 
 /* Council contact cards (replacing table) */
@@ -2416,6 +2391,12 @@ ul#nav li.dropdown a.top-level, ul#nav li.dropdown-current a.top-level {
 .partner-sidebar img {
 	max-width: 100%;
 	margin-bottom: 20px;
+}
+
+.partner-sidebar .logo-divider {
+	border: none;
+	border-top: 1px solid var(--color-gold-border);
+	margin: 10px 0 20px;
 }
 
 .partner-card {
