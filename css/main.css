@@ -1903,7 +1903,6 @@ ul#nav li.dropdown a.top-level, ul#nav li.dropdown-current a.top-level {
 	background: var(--color-bg-card);
 	border-radius: var(--radius-md);
 	padding: var(--spacing-card);
-	margin-top: 30px;
 	margin-bottom: 30px;
 }
 
@@ -1913,9 +1912,10 @@ ul#nav li.dropdown a.top-level, ul#nav li.dropdown-current a.top-level {
 	margin-bottom: 24px;
 	padding-bottom: 12px;
 	padding-left: 16px;
-	border-bottom: 2px solid var(--color-gold-dim);
 	border-left: 3px solid var(--color-gold);
+	/* border-bottom: 2px solid var(--color-gold-dim); */
 	border-radius: var(--radius-sm);
+	background:linear-gradient(var(--color-gold-dim),var(--color-gold-dim)) bottom/100% 2px no-repeat;
 }
 
 .leadership-card__heading i {
