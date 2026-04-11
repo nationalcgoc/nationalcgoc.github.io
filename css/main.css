@@ -1877,6 +1877,26 @@ ul#nav li.dropdown a.top-level, ul#nav li.dropdown-current a.top-level {
 	margin-top: 120px;
 }
 
+/* Leadership page hero */
+.leadership-hero {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.leadership-hero h1 {
+	font: 28px/36px var(--font-heading);
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	color: var(--color-white);
+	margin-bottom: 12px;
+}
+
+.leadership-hero p {
+	font: 16px/28px var(--font-light);
+	color: var(--color-text-light);
+	margin: 0;
+}
+
 /* Leadership card sections */
 .leadership-card {
 	background: var(--color-bg-card);
