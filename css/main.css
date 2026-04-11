@@ -1880,6 +1880,7 @@ ul#nav li.dropdown a.top-level, ul#nav li.dropdown-current a.top-level {
 /* Leadership page hero */
 .leadership-hero {
 	text-align: center;
+	padding-top: 20px;
 	padding-bottom: 10px;
 }
 
